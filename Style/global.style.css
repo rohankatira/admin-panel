@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* maincontainer */
+#main-container{
+    height: 100Vh;
+    width: 100%;
+    display: flex;
+}
+#slider{
+    width: 20%;
+    height: 100vh;
+    background-color:#fff;
+}
+#main{
+    width: 80%;
+    height: 100vh;
+    background-color: burlywood;
+}
+/* icon section */
+#icon{
+    display: flex;
+    background-color:transparent;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+}
+#icon>a>img{
+    justify-content: center;
+    height: 25px;
+    width: 90%;
+}
+/* icon section */
+.dashboard{
+    display: flex;
+}
+.dashboard>button{
+    height: 45px;
+    width: 100%;
+    border: none;
+    background:none;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    padding-top: 7px;
+    gap: 5px;
+    margin-top: 15px;
+}
+.bx bxs-dashboard{
+    font-size: 36px;
+}
+.bx bx-bowling-ball{
+    font-size: 36px;
+}
+.dashboard>button:hover{
+    background-color: #f6f9fc;
+    color: rgba(0,0,0,.9);
+    border-radius: 10px;
+    transition: 1s;
+}
