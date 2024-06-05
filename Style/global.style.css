@@ -98,3 +98,29 @@
     transition: 3s,ease;
     border-radius: 25px;
 }
+/* nav bar */
+.nav-links{
+    width: max-content;
+    padding: 14px;
+    border-radius: 25px;
+    background: #f6f6f6;  
+    display: flex;
+}
+.input-serch{
+    background: transparent;
+    border: none ;
+    outline: none;
+    font-size: 16px;
+    margin-left: 10px;
+    font-family:'Open Sans', sans-serif ;
+    color: #8898aa;
+    align-items: start;
+}
+.bx-search-alt-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8898aa;
+    font-size: 16px;
+
+}
