@@ -17,7 +17,6 @@
 #main{
     width: 80%;
     height: 100vh;
-    background-color: burlywood;
 }
 #icon-main{
     display: flex;
@@ -102,7 +101,13 @@
     border-radius: 25px;
 }
 /* nav bar */
+#nav-links-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5e72e4;
+}
 .nav-links{
+    margin: 10px;
     width: max-content;
     padding: 14px;
     border-radius: 25px;
@@ -127,4 +132,71 @@
     color: #8898aa;
     font-size: 16px;
 }
+#nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px;
+    gap: 10px;
+}
+#nav-right>i{
+    color: #fff;
+    font-size: 20px;
+}
+.login-img>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 /* nav */
+/* Dahboard */
+/* defullt */
+#defult-main-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e72e4;
+}
+.defult-right-class{
+    display: flex;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+}
+.defult-right-class>h6{
+    color: #fff;
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    margin-right: 15px;
+}
+
+.defult-manu{
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'open sans', sans-serif;
+    color: #8898aa;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+.defult-manu:hover{
+    color: #5e72e4;
+}
+.bxs-home{
+    color: #5e72e4;
+}
+.defult-left-class{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+}
+.defult-left-class>button{
+    font-size: 1.3rem;
+    padding: 5px;
+    color: #5e72e4;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+/* dashbord */
