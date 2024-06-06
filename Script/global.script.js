@@ -5,3 +5,12 @@ $(".dashbord>button").on("click",function(){
     $($(this).attr("for")).show();
     
 })
+
+// counter.js
+$(".counter").counter({
+    autoStart:true,
+    duration: 5000,
+    countFrom: 1,
+    countTo:350897
+
+});

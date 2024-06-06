@@ -200,3 +200,92 @@
     border-radius: 10px;
 }
 /* dashbord */
+
+/* --------------------------------------------card------------------------------------------------------------ */
+
+#performance-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #5e72e4;
+  }
+  
+  .card {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+    font-size: larger;
+    background-color:#fff;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    font-family:'open sans', sans-serif ;
+    font-weight: 300;
+    color: #8898aa;
+  }
+  .counter{
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    color: black;
+  }
+  .profits-range>p{
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    color:#8898aa;
+  }
+
+  .bxs-hand-up {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 50px;
+  }
+
+  .bxs-pie-chart-alt-2 {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 50px;
+  }
+  
+  .bx-line-chart {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 50px;
+  }
+  
+  .bxs-bar-chart-alt-2 {
+    color: white;
+    background-color: lightseagreen;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 50px;
+  }
+  
+  .profits-range {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .bx-up-arrow-alt {
+    color: green;
+  }
+  
+  .bx-down-arrow-alt{
+    color: red;
+  }
+  /* -----------------------------------------------card-------------------------------------------------------- */
