@@ -13,6 +13,7 @@
     width: 20%;
     height: 100vh;
     background-color:#fff;
+    
 }
 #main{
     width: 80%;
@@ -46,7 +47,7 @@
     left: 15px;
 }
 
-.bxs-tennis-ball{
+.bxs-calendar{
     position: absolute;
     color: #fb6340;
     left: 15px;
@@ -289,7 +290,8 @@
     color: red;
   }
   /* -----------------------------------------------card-------------------------------------------------------- */
-.chart-main{
+/* -------------------------------------------------chart------------------------------------------------------- */
+  .chart-main{
     display: flex;
     flex-wrap: wrap;
 }
@@ -301,3 +303,66 @@
     height: 350px;
     width: 50%;
   }
+
+  /* ---------------------------------------------------------------------table---------------------------------------------------------- */
+
+  .tabel-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.table-header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.see{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+
+}
+
+.content-table thead tr {
+    background-color: #f6f9fc;
+    color: #8898aa;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+tbody tr{
+  color: black;
+}
+/* ---------------------------------------------------------------------table---------------------------------------------------------- */
