@@ -289,3 +289,15 @@
     color: red;
   }
   /* -----------------------------------------------card-------------------------------------------------------- */
+.chart-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+  #chart-one{
+    height: 350px;
+    width: 50%;
+  }
+  #chart-2{
+    height: 350px;
+    width: 50%;
+  }
