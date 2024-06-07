@@ -612,13 +612,391 @@ tbody tr{
 
 
 
-#login-top{
-  background-color:#1a4da4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#login{
+  background-color: #5469e1;
 }
-login-top-right>nav>a{
-  height: 50px;
-  width: 50px;
+
+.login-nav{
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+
+
+.login-logo a>img {
+  /* border: 1px solid #000; */
+ width: 100px;
+ padding: 15px ;
+ border-radius: 5px;
+}
+
+
+
+.login-button a{
+  color: white;
+  font-size: 18px;
+  /* border: 1px solid #000; */
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.login-button > button{
+  padding: 14px ;
+  background-color: white;
+  color:#5469e1;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button a:hover{
+  background-color: rgb(16, 16, 16);
+}
+
+
+
+/* -------------H E A D I N G--------------- */
+
+
+.head{
+  text-align: center;
+  padding-block: 100px;
+  /* border: 1px solid #000; */
+  
+}
+
+.head h1{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+
+.head p{
+  color: rgb(201, 194, 194);
+  font-size: 16px;
+}
+
+
+
+/*------------- F O R M  -----------------  */
+
+.form-main{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  background-color: #172b4d;
+}
+.bxl-github{
+  font-size: larger;
+}
+.bxl-google{
+  font-size: large;
+}
+
+.login-form{
+  width: 350px;
+  height: auto;
+  /* border: 1px solid #000; */
+  transform: translateY(-10%);
+     
+}
+
+.form-logo{
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid #000; */
+  background-color: white;
+  height: 140px;
+  
+}
+
+.form-logo p{
+  color: grey;
+  margin-bottom: 20px;
+  /* border: 1px solid #000; */
+}
+
+
+.form-logo a{
+  /* border: 1px solid #000; */
+  padding: 14px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, .1) 0 0 0 2px, rgba(0, 0, 0, .1) 0 4px 16px;
+  text-decoration: none;
+  margin-right:5px;
+  color: #1a4da4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-logo a>i{
+  padding: 8px;
+  color: #000;
+}
+
+.login-info{
+  background-color: white;
+  padding: 30px;
+}
+
+.login-info-head p{
+  text-align: center;
+  margin-bottom: 20px;
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-info-form {
+
+  padding: 10px;
+}
+
+.info-content{
+  margin-bottom: 10px;    
+}
+
+.info-content i{
+  padding: 10px;
+}
+
+.info-content input{
+  padding: 10px;
+  width: 80%;
+  border: 1px solid rgb(192, 183, 183);
+  background-color: transparent;
+  outline: none;
+}
+
+
+.checkbox input {
+  accent-color: white;
+  border: 1px solid #000;
+  margin-right: 5px;
+}
+
+.login-info-button{
+  text-align: center;
+  /* border: 1px solid #000; */
+  padding: 18px;
+}
+
+.login-info-button a{
+  text-decoration: none;
+  /* border: 1px solid #000; */
+  padding:14px;
+  background-color:#3949a4 ;
+  color: white;
+  border-radius: 7px;
+}
+
+#ft-login{
+  color: white;
+  background-color: #172b4d;
+  
+}
+
+/* reagister */
+
+#register{
+  background-color: lightseagreen;
+}
+
+
+.register-nav{
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+
+
+.register-logo a>img {
+  /* border: 1px solid #000; */
+ width: 100px;
+ padding: 15px ;
+ border-radius: 5px;
+}
+
+
+
+.register-button a{
+  color: white;
+  font-size: 18px;
+  /* border: 1px solid #000; */
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.register-button > button{
+  padding: 14px ;
+  background-color: #000;
+  color:#fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.register-button a:hover{
+  background-color: rgb(34, 33, 33);
+}
+
+
+/* --------H  E  A  D  I  N  G ------------ */
+
+.regis-head{
+  text-align: center;
+  padding-block: 100px;
+  /* border: 1px solid #000; */
+  
+}
+
+.regis-head h1{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+
+.regis-head p{
+  color: rgb(201, 194, 194);
+  font-size: 16px;
+}
+
+
+/* ---------- R E G I S T E R / F O R M -------------- */
+
+
+.register-main{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  background-color: #172b4d;
+}
+
+
+.register-form{
+  width: 50%;
+  height: auto;
+  /* border: 1px solid #000; */
+  transform: translateY(-10%);
+     
+}
+
+.regis-logo{
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid #000; */
+  height: 140px;
+  
+}
+
+.regis-logo p{
+  color: #fff;
+  margin-bottom: 20px;
+  /* border: 1px solid #000; */
+}
+#git{
+  color: #fff;
+}
+
+.regis-logo a{
+  /* border: 1px solid #000; */
+  padding: 14px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, .1) 0 0 0 2px, rgba(0, 0, 0, .1) 0 4px 16px;
+  text-decoration: none;
+  margin-right:5px;
+  color: #fff;
+  background-color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.regis-logo a>i{
+  padding: 8px;
+  color: #000;
+}
+
+/*-------  F O R M --- C O N T E N T --------------- */
+
+.register-info{
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+}
+
+.register-info-head p{
+  text-align: center;
+  margin-bottom: 30px;
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-info-form{
+  display: flex;
+  /* border: 1px solid #000; */
+  margin-bottom: 18px;
+}
+
+.register-info-content{
+  padding: 10px;
+}
+
+
+.register-info-input{
+  width: 100%;
+}
+
+
+.register-info-input span>input{
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  outline:none;
+  border: 1px solid rgb(229, 225, 225);
+}
+
+
+.register-checkbox{
+  margin-bottom: 16px;
+  /* border: 1px solid #000; */
+}
+
+.register-checkbox input {
+  accent-color: white;
+  /* border: 1px solid #000; */
+  margin-right: 5px;
+}
+
+.register-checkbox label>a{
+  text-decoration: none;
+  color: #1a4da4;
+}
+
+.register-info-button{
+  text-align: center;
+  /* border: 1px solid #000; */
+  padding: 18px;
+}
+
+.register-info-button a{
+  text-decoration: none;
+  /* border: 1px solid #000; */
+  padding:14px;
+  background-color:#3949a4 ;
+  color: white;
+  border-radius: 7px;
+}
+
+#ft-register{
+  color: white;
+  background-color: #172b4d;
+  
 }
