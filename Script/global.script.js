@@ -1,7 +1,7 @@
 $("#calender,#google,#profile,#table,#login,#register,#logout").hide();
 
 $(".dashbord>button").on("click",function(){
-    $("#Dashbord,#calender,#google,#profile,#table,#login,#register,#logout").hide();
+    $("#Dashbord,calender-main,#google,#profile,#table,#login,#register,#logout").hide();
     $($(this).attr("for")).show();
     
 })
@@ -135,3 +135,12 @@ var options = {
 
   var chart = new ApexCharts(document.querySelector("#chart-2"), options);
   chart.render();
+
+
+  // -------------- sidebar-nav ----------------------
+
+  $(".bx-menu").on("click",function(){
+     $("#slider").toggle();
+  })
+
+  

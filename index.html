@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abmin panel</title>
     <link rel="stylesheet" href="./Style/global.style.css" />
+    <link rel="stylesheet" href="./Style/calander.js.css"/>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -32,7 +33,7 @@
         <!-- btn-2 -->
 
         <div class="dashbord">
-          <button for="#calender"><i class='bx bxs-calendar'></i>calendar</button>
+          <button for="#calender-main"><i class='bx bxs-calendar'></i>calendar</button>
         </div>
 
         <!-- btn-3 -->
@@ -50,11 +51,6 @@
           </button>
         </div>
         <!-- btn-5 -->
-
-        <div class="dashbord">
-          <button for="#table"><i class="bx bx-list-ul"></i>Table</button>
-        </div>
-
         <!-- btn-6 -->
 
         <div class="dashbord">
@@ -104,7 +100,6 @@
             </div>
             <div id="nav-right">
               <i class="bx bx-menu"></i>
-              <i class="bx bx-menu-alt-right"></i>
               <i class="bx bxs-bell"></i>
               <i class="bx bx-layer"></i>
               <i class="login-img"
@@ -271,10 +266,146 @@
             </tbody>
           </table>
         </div>
-        
         <!-------------------------------------- tabel------------------------------------------------------------>
         </div>
         <!------------------------------------ dashboard----------------------------------------------------------->
+        <!------------------------------------- calander--------------------------------------------------------- -->
+        <!-- <div id="calender-main">
+          <div id="defult-main-class">
+            <div class="defult-right-class">
+              <h6>Calander</h6>
+              <div class="defult-manu">
+                <i class="bx bxs-home"></i>
+                <span>/ calander/</span>
+                <span>/calander.js</span>
+              </div>
+            </div>
+            <div class="defult-left-class">
+              <button>New</button>
+              <button>Filters</button>
+            </div>
+          </div>
+          <div id='calendar'></div>
+        </div> -->
+        <!------------------------------------- calander--------------------------------------------------------- -->
+        <!-------------------------------------- map------------------------------------------------------------- -->
+        <div id="google">
+          <div id="defult-main-class">
+            <div class="defult-right-class">
+              <h6>Google</h6>
+              <div class="defult-manu">
+                <i class="bx bxs-home"></i>
+                <span>/ Google/</span>
+                <span>/Google Map/</span>
+              </div>
+            </div>
+            <div class="defult-left-class">
+              <button>New</button>
+              <button>Filters</button>
+            </div>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14904.48129739615!2d72.95786724999999!3d20.947682549999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1717757742683!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <!-------------------------------------- map------------------------------------------------------------- -->
+        <div id="profile">
+          <div class="banner">
+              <div class="main-box">
+                  <h1>Hello test</h1>
+                  <p>This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
+                  <a href="">Edit Profile</a>
+              </div>
+              <div class="form-box">
+                  <div class="form">
+                      <h3>Edit Profile</h3>
+                      <p>USERNAME</p>
+                      <div class="form-username">
+                          <div class="label">
+                              <label for="">Username</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                          <div class="label">
+                              <label for="">Email</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                          <div class="label">
+                              <label for="">First-name</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                          <div class="label">
+                              <label for="">Last-name</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                      </div>
+                      
+
+
+                      <!------  F  O  R  M  2 ----------------->
+
+                      <p>CONTACT INFORMATION</p>
+                      <div class="form-username">
+                          <div class="label">
+                              <label for="">Address</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                          <div class="label">
+                              <label for="">City</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                          <div class="label">
+                              <label for="">Country</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                          <div class="label">
+                              <label for="">Contact</label><br>
+                              <input type="text" placeholder="test">
+                          </div>
+                      </div>
+
+
+                      <!----------F  O  R  M  3 ------>
+
+                      <p>ABOUT ME</p>
+                      <div class="about-me">
+                          <label for="">About Me</label><br>
+                          <textarea name="" id="">A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea>
+                      </div>
+                  </div>
+
+
+                  <!-------P  R  O  F  I  L  E -- C  A  R  D--------- -->
+
+                  <div class="p-card">
+                      <div class="photo-section">
+                          <div class="photo">
+                              <img width="100%" height="100%" src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/team-4.jpg" alt="">
+                          </div>
+                      </div>
+                      <div class="p-content">
+                          <div class="b-1">
+                              <h3>22</h3>
+                              <p>Friend</p>
+                          </div>
+                          <div class="b-1">
+                              <h3>10</h3>
+                              <p>Photos</p>
+                          </div>
+                          <div class="b-1">
+                              <h3>89</h3>
+                              <p>Comment</p>
+                          </div>
+                      </div>
+                      <div class="p-col2">
+                          <p>test</p>
+                          <p>test@creative-tim.com</p>
+                          <h4>Solution Manager - Creative Tim Officer</h4>
+                          <h4>University of Computer Science</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
       </div>
     </div>
     <script
@@ -283,6 +414,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="./Script/calander.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="./Script/counter.js"></script>
     <script src="./Script/jquery.easing.js"></script>
