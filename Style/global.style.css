@@ -424,6 +424,7 @@ tbody tr{
   background-color: white;
   color:#1a4da4;
 }
+/*-----------------------------------------------------profile---------------------------------------------------------------------------------- */
 
 /* ------------------ F  O  R  M ----------------- */
 
@@ -609,3 +610,15 @@ tbody tr{
   color:rgb(157, 155, 155);
 }
 
+
+
+#login-top{
+  background-color:#1a4da4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+login-top-right>nav>a{
+  height: 50px;
+  width: 50px;
+}
