@@ -1,0 +1,145 @@
+@media(max-width:600px){
+  #defult-main-class{
+    display: none;
+  }
+  /*--------------------------------- profile-------------------------------------------------------------------- */
+    #profile{
+        margin-top: 0;
+       }
+    
+       #performance-section{
+        gap: 20px;
+       }
+    
+       .main-box{
+        height: 250px;
+        width: 90%;
+        /* border: 1px solid #000; */
+       }
+    
+      .form-box{
+        height: auto;
+        /* border: 1px solid #000; */
+        flex-direction: column-reverse;
+        transform: translateY(90%);
+      }
+    
+    
+      .form{
+        width: 90%;
+        margin: auto;
+        height: auto;
+      }
+      .p-card{
+        width: 90%;
+        margin: auto;
+      }
+    
+      .form-username{
+        /* border: 1px solid #000; */
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .form-username .label{
+        width: 100%;
+      }
+       /* ---- L O G I N ------------------- */
+
+
+
+
+.login-button{
+    display: none;
+}
+
+.head{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.head h1{
+    /* border: 1px solid #000; */
+    font-size: 24px;
+}
+
+head p{
+    font-size: 12px;
+}
+
+#slider{
+  position: absolute;
+  z-index: 20;
+  /* display: none !important; */
+}
+
+.bx-menu{
+  display: none;
+}
+
+.input-serch{
+  display:none;
+}
+.tabel-main{
+  width: 75%;
+  justify-content: center;
+}
+#nav-links{
+  display: none;
+}
+#nav-links-main{
+  justify-content: end;
+}
+}
+
+/* -------- R E G I S T E R ---------- */
+
+
+
+
+
+.register-button{
+  display: none;
+}
+
+.regis-head{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 90px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.regis-head h1{
+  /* border: 1px solid #000; */
+  font-size: 24px;
+}
+
+.regis-head p{
+  font-size: 12px;
+}
+
+
+.register-form{
+  width: 320px;
+}
+
+.register-info{
+  padding:40px;
+}
+
+/* chart */
+
+.chart-main{
+  gap: 20px;
+}
+
+/* table */
+
+.tabel-main{
+  width: 100%;
+  font-size: small;
+  overflow-y: scroll;
+}

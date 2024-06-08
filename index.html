@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abmin panel</title>
     <link rel="stylesheet" href="./Style/global.style.css" />
-    <link rel="stylesheet" href="./Style/calander.js.css"/>
+    <link rel="stylesheet" href="./Style/mobile.css"/>
+
+    <link rel="stylesheet" href="./calendar-js-2.12.0/dist/calendar.js.css">
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
-    <!----------------------------------------- slider-------------------------------------------------------- -->
+    <!----------------------------------------- slider---------------------------------------------------------->
     <div id="main-container">
       <div id="slider">
         <div id="icon-main">
@@ -93,13 +95,14 @@
       <div id="main">
         <header>
           <div id="nav-links-main">
-            <div class="nav-links">
+            <div id="nav-links">
               <i class="bx bx-search-alt-2">
                 <input class="input-serch" type="search" placeholder="search" />
               </i>
             </div>
             <div id="nav-right">
               <i class="bx bx-menu"></i>
+              <i class='bx bx-menu-alt-left'></i>
               <i class="bx bxs-bell"></i>
               <i class="bx bx-layer"></i>
               <i class="login-img"
@@ -266,27 +269,16 @@
             </tbody>
           </table>
         </div>
+
+        
         <!-------------------------------------- tabel------------------------------------------------------------>
+        
         </div>
         <!------------------------------------ dashboard----------------------------------------------------------->
         <!------------------------------------- calander--------------------------------------------------------- -->
-        <!-- <div id="calender-main">
-          <div id="defult-main-class">
-            <div class="defult-right-class">
-              <h6>Calander</h6>
-              <div class="defult-manu">
-                <i class="bx bxs-home"></i>
-                <span>/ calander/</span>
-                <span>/calander.js</span>
-              </div>
-            </div>
-            <div class="defult-left-class">
-              <button>New</button>
-              <button>Filters</button>
-            </div>
-          </div>
-          <div id='calendar'></div>
-        </div> -->
+        <div id="calender-main">
+          <div id="calendar"></div>
+        </div>
         <!------------------------------------- calander--------------------------------------------------------- -->
         <!-------------------------------------- map------------------------------------------------------------- -->
         <div id="google">
@@ -567,7 +559,67 @@
                 <h4>@ Creative-Tim - coded by Appspeed</h4>
             </footer>
         </div>
+<!----------------------------------------------------- logout----------------------------------------------- -->
+        <div id="logout">
+          <div class="login-nav">
+              <div class="login-logo">
+                  <a href="">
+                      <img width="100%" height="100%" src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/brand/white.png" alt="">
+                  </a>
+              </div>
+              <div class="login-button">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <button>More Starter</button>
+              </div>
+          </div>
+          
+          <!--L O G I N / H E A D I N G  -->
 
+          <div class="head">
+              <h1>Argon Dashboard Flask</h1>
+              <p>Open-Source Flask Starter with Argon Dashboard Design.</p>
+          </div>
+
+          <!---------- F O R M ----------->
+
+          <div class="form-main">
+              <div class="login-form">
+                  <div class="form-logo">
+                      <p>Sign in with </p>
+                      <a href=""><i class='bx bxl-github'></i>Github</a>
+                      <a href=""><i class='bx bxl-google' ></i>Google</a>
+                  </div>
+                  <div class="login-info">
+                      <div class="login-info-head">
+                          <p>Sign with credential</p>
+                      </div>
+                      <div class="login-info-form">
+                          <div class="info-content">
+                              <i class="fa-solid fa-envelope"></i>
+                              <input type="text" placeholder="Email" required>
+                          </div>
+                          <div class="info-content">
+                              <i class="fa-solid fa-lock"></i>
+                              <input type="text" placeholder="Password" required>
+                          </div>
+                          <div class="checkbox">
+                              <label for=""><input type="checkbox">Remember</label>
+                          </div>
+                         <div class="login-info-button">
+                          <a href="">Sign In</a>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <footer id="ft-login">
+              <h4>Argon Dashboard Flask</h4>
+              <h4>@ Creative-Tim - coded by Appspeed</h4>
+          </footer>
+      </div>
+        </div>
       </div>
     </div>
     <script
@@ -576,7 +628,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./Script/calander.js"></script>
+    <script src="./calendar-js-2.12.0/dist/calendar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="./Script/counter.js"></script>
     <script src="./Script/jquery.easing.js"></script>

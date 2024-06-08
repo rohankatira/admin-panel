@@ -56,6 +56,10 @@
     color: #fb6340;
     left: 15px;
 }
+
+.bx-menu-alt-left{
+  display: none;
+}
  .bxs-map{
     position: absolute;
     color: #5e72e4;
@@ -110,8 +114,9 @@
     display: flex;
     justify-content: space-between;
     background-color: #5e72e4;
+    box-sizing: content-box;
 }
-.nav-links{
+#nav-links{
     margin: 10px;
     width: max-content;
     padding: 14px;
@@ -298,14 +303,15 @@
   .chart-main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
   #chart-one{
     height: 350px;
-    width: 50%;
+    width: 500px;
   }
   #chart-2{
     height: 350px;
-    width: 50%;
+    width: 500px;
   }
 
   /* ---------------------------------------------------------------------table---------------------------------------------------------- */
@@ -318,7 +324,7 @@
   }
 .table-header{
   display: flex;
-  justify-content: start;
+  /* justify-content: start; */
   align-items: center;
 }
 .see{
@@ -999,4 +1005,8 @@ tbody tr{
   color: white;
   background-color: #172b4d;
   
+}
+/* logout */
+#logout{
+  background-color: #5469e1;
 }
