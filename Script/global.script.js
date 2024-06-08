@@ -143,20 +143,25 @@ var options = {
      $("#slider").toggle();
   })
 
-  $(".bx-menu-alt-left").hide()
   
   // ------------------- media - query ----------------
 
   if(visualViewport.width <= 600){
+
     $(".bx-menu").hide()
-    $(".bx-menu-alt-left").show()
-    $("#slider").hide()
     $(".bx-menu-alt-left").on("click",function(){
-      $("#slider").css("width","200px");
-      $("#slider").css("position","absolute");
-      $("#slider").css("z-index","20");
       $("#slider").toggle();
    })
+
+   $("#calender-main,#google,#profile,#table,#login,#register,#logout").hide();
+
+$(".dashbord>button").on("click",function(){
+    $("#Dashbord,#calender-main,#google,#profile,#table,#login,#register,#logout").hide();
+    $("#slider").hide()
+    $($(this).attr("for")).show();
+    
+})
+
 
   }
 

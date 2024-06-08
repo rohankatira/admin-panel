@@ -2,6 +2,16 @@
   #defult-main-class{
     display: none;
   }
+  #slider{
+    display: none;
+    width: 200px;
+    z-index: 20;
+    position: absolute;
+  }
+
+  .bx-menu{
+    display: none importat !important;
+  }
   /*--------------------------------- profile-------------------------------------------------------------------- */
     #profile{
         margin-top: 0;
